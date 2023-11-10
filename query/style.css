@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+
+.button {
+    background-color: aqua;
+}
+
+@media only screen and (min-width: 500px){
+    body {
+        background-color: brown;
+    }
+
+    .button {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    body {
+        background-color: green;
+    }
+
+    .button {
+        display: none;
+    }
+}
